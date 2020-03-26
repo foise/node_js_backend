@@ -1,14 +1,29 @@
-﻿<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 
 <head>
-  <title>hello!</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
 </head>
 
 <body>
-  <div class="block">
-    <button type="button" class="btn">Hit me!</button>
+  <div id="app">
+    <form class="registration-form">
+      <input type="text" name="username" placeholder="имя пользователя" />
+      <input type="email" name="email" placeholder="email" />
+      <button type="submit">добавить</button>
+    </form>
+
+    <br />
+
+    <div class="user-list">
+      <div class="user">
+        <strong>Список пользователей</strong>
+      </div>
+    </div>
   </div>
+
+  <script src="js/app.js"></script>
 </body>
 
 </html>

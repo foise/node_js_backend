@@ -21,7 +21,7 @@
     "jshint": "src/"
   },
   "scripts": {
-    "server": "live-server src",
+    "server": "node server.js",
     "validate-html": "html-validate src",
     "stylelint": "stylelint src/**/*.css",
     "jshint": "jshint src/",
@@ -50,6 +50,8 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
